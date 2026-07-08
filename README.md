@@ -430,6 +430,8 @@ This workflow ensures Terraform configuration remains properly formatted, valid,
 * AWS Secrets Manager integration.
 * Monitoring using CloudWatch and Prometheus.
 * Automated Terraform deployment after approval.
+* Prometheus and Grafana monitoring.
+* Blue/Green deployment strategy.
 
 ---
 
