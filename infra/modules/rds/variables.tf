@@ -16,7 +16,7 @@ variable "ecs_security_group_id" {
 
 variable "database_name" {
   type    = string
-  default = "appdb"
+  default = "hoteldb"
 }
 
 variable "username" {

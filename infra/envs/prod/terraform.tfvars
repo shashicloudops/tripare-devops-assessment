@@ -8,6 +8,8 @@ backup_retention = 14
 
 deletion_protection = true
 
+database_name = "hoteldb"
+
 db_username = "postgres"
 
 db_password = "admin@123"

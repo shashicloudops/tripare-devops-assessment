@@ -47,6 +47,8 @@ module "rds" {
 
   ecs_security_group_id = module.ecs.security_group_id
 
+  database_name = var.database_name
+
   username = var.db_username
 
   password = var.db_password

@@ -25,6 +25,11 @@ variable "deletion_protection" {
   type        = bool
 }
 
+variable "database_name" {
+  description = "Database name"
+  type        = string
+}
+
 variable "db_username" {
   description = "Database username"
   type        = string
