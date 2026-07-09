@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LATEST=$(ls backups/*.sql | tail -1)
+LATEST=$(ls -t backups/*.sql | head -1)
 
 docker exec -i postgres-db psql -U admin -c "DROP DATABASE IF EXISTS hoteldb;"
 
