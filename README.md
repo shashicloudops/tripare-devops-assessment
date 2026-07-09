@@ -291,6 +291,18 @@ If the row counts match the backup, the restore completed successfully.
 
 ---
 
+# Security Note
+
+Database credentials are hardcoded in terraform.tfvars for demonstration purposes only to keep the assessment simple.
+
+In a production environment, sensitive values such as database passwords should never be stored in source code. They should be managed using a secure secret management solution such as:
+
+AWS Secrets Manager
+HashiCorp Vault
+Environment variables injected through CI/CD
+
+---
+
 # Terraform Infrastructure
 
 Terraform is organized using reusable modules.
