@@ -32,7 +32,7 @@ module "ecs" {
 
   private_subnet_ids = module.network.private_subnet_ids
 
-  execution_role_arn = "arn:aws:iam::217441067604:user/terraform-user"
+  execution_role_arn = "arn:aws:iam::217441067604:role/ecsTaskExecutionRole"
 }
 
 module "rds" {
